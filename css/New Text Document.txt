@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+@media (max-width: 576px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    header .navbar{
+        display: flex;
+        padding: 1rem;
+    }
+    header .navbar a{
+        color: #373737;
+    }
+    header .navbar ul{
+        display: flex;
+        list-style: none;
+    }
+    header .navbar a{
+        padding: 0 13px
+    }
+    .nav {
+        display: none;
+    }
+    .middle{
+        position: absolute;
+    }
+    .middle img{
+        width: 100%;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 1rem 1rem;
+    }
+    .middle a{
+        position: relative;
+        text-align: center;
+        padding: 1rem 7rem;
+        margin: 10px;
+        border-radius: 0.5rem;
+        font-size: 20px;    
+    }
+    .middle .right{
+        position: relative;
+        top: 2rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .middle .fiziki{
+        background-color: #69acf1;
+        color: #fff;
+    }
+    .middle .huquqi{
+        background-color: #0ec4a3;
+        color: #fff;
+    }
+    .middle .aze{
+        border: 1px solid #373737;
+        color: #373737;
+        font-weight: 700;
+        position: relative;
+        text-align: center;
+        padding: 1rem 7rem;
+        margin: 10px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width:992px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    header .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    header .navbar a{
+        color: #373737;
+    }
+    header .navbar ul{
+        display: flex;
+        list-style: none;
+    }
+    header .navbar a{
+        padding: 0 13px
+    }
+    .nav {
+        display: none;
+    }
+    .middle{
+        position: absolute;
+    }
+    .middle img{
+        width: 100%;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 3rem 3rem;
+    }
+    .middle a{
+        position: relative;
+        text-align: center;
+        padding: 3rem 2rem;
+        margin: 10px;
+        border-radius: 0.5rem;
+        font-size: 20px;    
+    }
+    .middle .right{
+        padding: 3rem 3rem;
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .middle .fiziki{
+        background-color: #69acf1;
+        color: #fff;
+    }
+    .middle .huquqi{
+        background-color: #0ec4a3;
+        color: #fff;
+    }
+    .middle .aze{
+        border: 1px solid #373737;
+        color: #373737;
+        font-weight: 700;
+        position: relative;
+        text-align: center;
+        padding: 1rem 7rem;
+        margin: 10px;
+    }   
+    
+}
+
+@media (min-width: 992px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    header .navbar{
+        display: flex;
+        padding: 1rem;
+    }
+    header .navbar a{
+        color: #373737;
+    }
+    header .navbar ul{
+        display: flex;
+        list-style: none;
+    }
+    header .navbar a{
+        display: flex;
+        padding: 0 13px
+    }
+    header  .nav{
+        display: flex;
+        justify-content: space-bet  ween;
+        list-style: none;
+    }
+    .middle{
+        display: flex;
+        position: absolute;
+    }
+    .middle img{
+        width: 80%;
+        position: relative;
+        top: 2rem;
+        left: 11rem;
+        border-radius: 0.5rem;
+    }
+    .middle a{
+        position: relative;
+        padding: 3rem 7rem;
+        border-radius: 0.5rem;
+        font-size: 20px;    
+    }
+    .middle .right{
+        position: relative;
+        top: 2rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .middle .fiziki{
+        background-color: #69acf1;
+        color: #fff;
+    }
+    .middle .huquqi{
+        background-color: #0ec4a3;
+        color: #fff;
+    }
+    .middle .aze{
+        border: 1px solid #373737;
+        color: #373737;
+        font-weight: 700;
+        padding: 3rem 4rem;
+    }
+    
+}
+
